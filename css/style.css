@@ -1,0 +1,104 @@
+a {
+  text-decoration: none;
+}
+
+header > a,
+.timer{
+  padding: 5px;
+  font-size: x-large;
+}
+
+.start-area > a,
+.retry,
+button{
+  background-color: purple;
+  border-radius: 5px;
+  color: white;
+  padding: 3px;
+}
+
+.timer {
+  float: right;
+}
+
+.start-area{
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  font-size: x-large;
+}
+
+.start-area > a{
+  width: fit-content;
+  margin:0 auto;
+  display:block;
+}
+
+.start-area > h1{
+  margin: 10%;
+}
+
+.start-area > p{
+  margin: 5%;
+}
+
+.main,
+.user-sub,
+.score-display{
+  width: 50%;
+  margin: auto;
+  font-size: large;
+}
+
+.main > .question{
+  margin: 5%;
+  margin-left: 0;
+}
+
+.answer > button{
+  margin: 3px;
+  margin-left: 0;
+}
+
+.feedback {
+  font-size: large;
+  color: rgb(83, 83, 83);
+  margin: 4px;
+  padding: 5px;
+  margin-left: 0;
+  padding-left: 0;
+  font-weight: bold;
+}
+
+.user-sub > *{
+  margin: 5%;
+}
+
+.user-sub > .entry,
+.user-sub > .final-score,
+.user-sub > .entry > input{
+  font-size: 20px;
+}
+
+.score-display > h1{
+  margin: 8%;
+  margin-left: 0;
+  margin-bottom: 4%;
+}
+
+.score-display > .highscores{
+  font-size: large;
+  margin: 3%;
+  margin-left: 0;
+  font-weight: bold;
+ 
+}
+
+.score-display > .highscores > *{
+  margin: 1%;
+  margin-left: 0;
+  padding: 1%;
+  padding-left: 1%;
+  background-color: rgb(211, 183, 236);
+ 
+}
